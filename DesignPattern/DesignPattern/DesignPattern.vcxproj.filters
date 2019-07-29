@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DesignPattern">
+      <UniqueIdentifier>{9a7a6803-c4a5-4bd7-9d3f-9edd7f54b8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Singleton">
+      <UniqueIdentifier>{dcdf8723-d024-4b46-9ddf-18a99de373c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\FactoryMethod">
+      <UniqueIdentifier>{05b6daee-555e-4d76-a181-7fe8e60e8565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\AbstractFactory">
+      <UniqueIdentifier>{d2b93197-ebd6-474b-97c6-6c50aa053c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Builder">
+      <UniqueIdentifier>{0d78fa16-984a-40c8-a74a-b8a12609f8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Prototype">
+      <UniqueIdentifier>{4418ed6a-99b9-48d7-87da-0cd83263edb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Adapter">
+      <UniqueIdentifier>{ccc132f6-9b4b-4ba5-8f13-2a4e653fa264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Bridge">
+      <UniqueIdentifier>{710e76f3-cf96-4bc4-a0d7-3e29607374cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Composite">
+      <UniqueIdentifier>{d07c9232-cc0d-45e0-aad0-3f46eb307315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Decorator">
+      <UniqueIdentifier>{ec7edf7e-c1c5-408b-8c16-b43e840151a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Facade">
+      <UniqueIdentifier>{679dec2b-9655-495d-acba-e5b738fe396c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Flyweight">
+      <UniqueIdentifier>{4b1a3bbe-a0f4-4c9b-b910-50ed25d6385b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Proxy">
+      <UniqueIdentifier>{0243cc42-ca77-4d8f-872c-b7c1f63d5438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\COR">
+      <UniqueIdentifier>{fda08538-b46e-4fc4-a68b-e1cadf6d8ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Command">
+      <UniqueIdentifier>{ea2bfca0-fbb5-4a39-a855-5d47203662eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Interpreter">
+      <UniqueIdentifier>{500cec1d-31d1-4808-bdfa-14d4c0931492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Iterator">
+      <UniqueIdentifier>{dca259f6-7c7d-42c7-823f-728315615c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Mediator">
+      <UniqueIdentifier>{d7891a90-b79d-43ca-95af-f789fac32602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Memento">
+      <UniqueIdentifier>{1364ad31-5e9d-4d6a-9037-49a03d7c25d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Observer">
+      <UniqueIdentifier>{71eb031c-56d2-42ae-b3fd-0838eb9976c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\State">
+      <UniqueIdentifier>{fab43bbe-ab7b-4f8c-bbb3-ee63d09e3672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Strategy">
+      <UniqueIdentifier>{1a78d9e8-ffe8-4f45-87bc-f18971ffe059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\TemplateMethod">
+      <UniqueIdentifier>{199fb311-8f3f-4b54-a5cd-9e7d1bc7ad0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Visitor">
+      <UniqueIdentifier>{378c1e92-36b2-4939-bc58-f18ca054625b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Extend">
+      <UniqueIdentifier>{75e6c39f-2ddb-41bf-8abb-b2eef5ae4b08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalBlackFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\AnimalBlack.hpp">
+      <Filter>DesignPattern\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\AnimalWhite.hpp">
+      <Filter>DesignPattern\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\StudentWork.hpp">
+      <Filter>DesignPattern\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\TeacherWork.hpp">
+      <Filter>DesignPattern\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\ManBuilder.hpp">
+      <Filter>DesignPattern\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\WomanBuilder.hpp">
+      <Filter>DesignPattern\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\PersonDirector.hpp">
+      <Filter>DesignPattern\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\Adaptee.hpp">
+      <Filter>DesignPattern\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\Adapter.hpp">
+      <Filter>DesignPattern\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge\ConcreteClothing.hpp">
+      <Filter>DesignPattern\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge\ConcretePerson.hpp">
+      <Filter>DesignPattern\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite\LeafComposite.hpp">
+      <Filter>DesignPattern\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator\Decorator.hpp">
+      <Filter>DesignPattern\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Facade\Facade.hpp">
+      <Filter>DesignPattern\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="Facade\SubSystemClasses.hpp">
+      <Filter>DesignPattern\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight\Facade.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight\SubSystemClasses.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight\Flyweight.hpp">
+      <Filter>DesignPattern\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy\Proxy.hpp">
+      <Filter>DesignPattern\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="COR\Handler.hpp">
+      <Filter>DesignPattern\COR</Filter>
+    </ClInclude>
+    <ClInclude Include="COR\Request.hpp">
+      <Filter>DesignPattern\COR</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Command.hpp">
+      <Filter>DesignPattern\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Invoker.hpp">
+      <Filter>DesignPattern\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Receiver.hpp">
+      <Filter>DesignPattern\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter\Expression.hpp">
+      <Filter>DesignPattern\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter\Context.hpp">
+      <Filter>DesignPattern\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator\Iterator.hpp">
+      <Filter>DesignPattern\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator\List.hpp">
+      <Filter>DesignPattern\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator\Mediator.hpp">
+      <Filter>DesignPattern\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator\Colleague.hpp">
+      <Filter>DesignPattern\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento\Memento.hpp">
+      <Filter>DesignPattern\Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento\Originator.hpp">
+      <Filter>DesignPattern\Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento\Caretaker.hpp">
+      <Filter>DesignPattern\Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\Observer.hpp">
+      <Filter>DesignPattern\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\Subject.hpp">
+      <Filter>DesignPattern\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="State\State.hpp">
+      <Filter>DesignPattern\State</Filter>
+    </ClInclude>
+    <ClInclude Include="State\ContextState.hpp">
+      <Filter>DesignPattern\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\Strategy.hpp">
+      <Filter>DesignPattern\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\ContextStrategy.hpp">
+      <Filter>DesignPattern\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateMethod\Template.hpp">
+      <Filter>DesignPattern\TemplateMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor\Visitor.hpp">
+      <Filter>DesignPattern\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor\Element.hpp">
+      <Filter>DesignPattern\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\IAnimalFactory.hpp">
+      <Filter>DesignPattern\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\IWork.hpp">
+      <Filter>DesignPattern\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\IPersonBuilder.hpp">
+      <Filter>DesignPattern\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\ITarget.hpp">
+      <Filter>DesignPattern\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge\Abstraction.hpp">
+      <Filter>DesignPattern\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite\IEmployer.hpp">
+      <Filter>DesignPattern\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator\Component.hpp">
+      <Filter>DesignPattern\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton\Singleton.hpp">
+      <Filter>DesignPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype\Prototype.hpp">
+      <Filter>DesignPattern\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Extend\Extend.hpp">
+      <Filter>DesignPattern\Extend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignPattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton\Singleton.cpp">
+      <Filter>DesignPattern\Singleton</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
